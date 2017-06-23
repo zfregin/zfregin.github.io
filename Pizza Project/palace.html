@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<title>Prince's Pizza Palace</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="palace-style.css">
+	</head>
+	<body>
+
+	
+		<div class="container-fluid">		
+			<!-- Logo -->
+			<div id="wrapper">
+				<div class="future-cop">
+					<h5 class="future">Prince's</h5>
+					<h5 class="cop">Pizza Palace</h5>
+				</div>
+				<!-- <img class="title-image img-fluid" src="pizza_slice_left25.png" alt=""/> -->
+				<img class="title-image img-fluid" src="pizza_pillar25.png" alt=""/>
+				<img class="title-image img-fluid" src="purple-rain-prince40.jpg" alt=""/>
+				<img class="title-image img-fluid" src="pizza_pillar25.png" alt=""/>
+				<!-- <img class="title-image img-fluid" src="pizza_slice_right25.png" alt=""/> -->
+			</div>
+			<!-- /Logo -->
+		</div>
+
+		<br>
+		<br>
+
+		<div class="container">
+			<div class="row">
+				<!-- Size selection -->
+				<div class="col-sm-4">
+					<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+						<div class="card-header text-center">
+							Size
+						</div>
+						<div class="card-block">
+							<input type="radio" name="size" value="Personal Pizza"> Personal Pizza</input> <br>
+							<input type="radio" name="size" value="Medium Pizza" checked> Medium Pizza</input> <br>
+							<input type="radio" name="size" value="Large Pizza"> Large Pizza</input> <br>
+							<input type="radio" name="size" value="Extra Large Pizza"> Extra Large Pizza</input>
+						</div>
+					</div>
+				</div>
+				<!-- /Size Selection -->
+
+				<!-- Cheese Selection -->
+				<div class="col-sm-4">
+					<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+						<div class="card-header text-center">
+							Cheese
+						</div>
+						<div class="card-block">
+							<input type="radio" name="cheese" value="Regular Cheese" checked> Regular Cheese</input> <br>
+							<input type="radio" name="cheese" value="Extra Cheese"> Extra Cheese</input> <br>
+							<input type="radio" name="cheese" value="No Cheese"> No Cheese</input>
+						</div>
+					</div>
+				</div>
+				<!-- /Cheese Selection -->
+
+				<!-- Sauce Selection -->
+				<div class="col-sm-4">
+					<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+						<div class="card-header text-center">
+							Sauce
+						</div>
+						<div class="card-block">
+							<input class="sauce" type="radio" name="sauce" value="Marinara Sauce" checked> Marinara Sauce</input> <br>
+							<input type="radio" name="sauce" value="White Sauce"> White Sauce</input> <br>
+							<input type="radio" name="sauce" value="Barbecue Sauce"> Barbecue Sauce</input> <br>
+							<input type="radio" name="sauce" value="Pesto Sauce"> Pesto Sauce</input> <br>
+							<input type="radio" name="sauce" value="No Sauce"> No Sauce</input>
+						</div>
+					</div>
+				</div>
+				<!-- /Sauce Selection -->
+			</div>
+
+			<br>
+
+			<div class="row">
+				<!-- Crust Selection -->
+				<div class="col-sm-4">
+					<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+						<div class="card-header text-center">
+							Crust
+						</div>
+						<div class="card-block">
+							<input type="radio" name="crust" value="Plain Crust" checked> Plain Crust</input> <br>
+							<input type="radio" name="crust" value="Garlic Butter Crust"> Garlic Butter Crust</input> <br>
+							<input type="radio" name="crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust</input> <br>
+							<input type="radio" name="crust" value="Spicy Crust"> Spicy Crust</input> <br>
+							<input type="radio" name="crust" value="House Special Crust"> House Special Crust</input>
+						</div>
+					</div>
+				</div>
+				<!-- /Crust Selection -->
+
+				<!-- Meat Selection -->
+				<div class="col-sm-4">
+					<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+						<div class="card-header text-center">
+							Meats
+						</div>
+						<div class="card-block">
+							<input type="checkbox" name="meat" value="Pepperoni"> Pepperoni</input> <br>
+							<input type="checkbox" name="meat" value="Sausage"> Sausage</input> <br>
+							<input type="checkbox" name="meat" value="Canadian Bacon"> Canadian Bacon</input> <br>
+							<input type="checkbox" name="meat" value="Ground Beef"> Ground Beef</input> <br>
+							<input type="checkbox" name="meat" value="Chicken"> Chicken</input> <br>
+							<input type="checkbox" name="meat" value="Anchovy"> Anchovy</input> <br>
+						</div>
+					</div>
+				</div>
+				<!-- /Meat Selection -->
+
+				<!-- Veggie Selection -->
+				<div class="col-sm-4">
+					<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+						<div class="card-header text-center">
+							Veggies
+						</div>
+						<div class="card-block">
+							<input type="checkbox" name="veggies" value="Tomatoes"> Tomatoes</input> <br>
+							<input type="checkbox" name="veggies" value="Onions"> Onions</input> <br>
+							<input type="checkbox" name="veggies" value="Olives"> Olives</input> <br>
+							<input type="checkbox" name="veggies" value="Green Peppers"> Green Peppers</input> <br>
+							<input type="checkbox" name="veggies" value="Mushrooms"> Mushrooms</input> <br>
+							<input type="checkbox" name="veggies" value="Pineapple"> Pineapple</input> <br>
+							<input type="checkbox" name="veggies" value="Spinach"> Spinach</input> <br>
+							<input type="checkbox" name="veggies" value="Jalapeno"> Jalapeno</input> <br>
+						</div>
+					</div>
+				</div>
+				<!-- /Veggie Selection -->
+			</div>
+			<br>
+			<!-- Order Button -->
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4 col-sm-offset-4">
+					<button type="button" class="btn btn-outline-danger btn-block" id="orderBtn">Place Order</button>
+				</div>
+			</div>
+			<!-- /Order Button -->
+
+			<!-- Order Receipt Modal -->
+			<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
+				<div class="modal-dialog text-muted" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title" id="orderModalLabel">You Ordered: </h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="d-flex justify-content-between">
+								<h5 id="pizza-size"></h5>
+								<span class="float-right" id="size-price"></span>
+							</div>
+							<hr>
+							<h5>Crust</h5>
+							<div class="d-flex justify-content-between">
+								<div id="selected-crust"></div>
+								<div id="crust-price"></div>
+							</div>
+							<hr>
+							<h5>Cheese</h5>
+							<div class="d-flex justify-content-between">
+								<div id="selected-cheese"></div>
+								<div id="cheese-price"></div>
+							</div>
+							<hr>
+							<h5>Sauce</h5>
+							<div class="d-flex justify-content-between">
+								<div id="selected-sauce"></div>
+								<div id="sauce-price"></div>
+							</div>
+							<hr>
+							<h5 class="pull-left">Meat</h5><div>(First choice no cost, $1.00 each additional)</div>
+							<div class="d-flex justify-content-between">
+								<div class="col-sm-8" id="selected-meat"></div>
+								<div id="meat-price"></div>
+							</div>
+							<hr>
+							<h5>Veggies</h5><div>(First choice no cost, $1.00 each additional)</div>
+							<div class="d-flex justify-content-between">
+								<div class="col-sm-8" id="selected-veggies"></div>
+								<div id="veggies-price"></div>
+							</div>
+							<hr>
+							<div class="d-flex justify-content-between">
+								<h2 id="pizza-size">Total</h2>
+								<h2 class="float-right" id="order-total"></h2>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary">Checkout</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Order Receipt Modal -->
+
+			<br>
+			<br>
+		</div>
+
+		
+
+
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="palace.js"></script>
+
+	</body>
+</html>
